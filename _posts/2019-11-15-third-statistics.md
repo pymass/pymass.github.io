@@ -362,11 +362,11 @@ t-값의 계산
 
 단순회귀분석 모형에서 개별값의 95% 예측구간 :
 $$
-\hat{y}_0±2\hat{SE}(y_0-\hat{y_0})=a+bx_0±2\hat{σ}\sqrt{1 + {1\over n} + {(x_0-\bar x)^2\over{\sum\limits_{i=1}^n(x_i-\bar{x})^2}}}
+\hat{y}_0±2\hat{SE}(y_0-\hat{y_0})=a+bx_0±2\hat{σ}\sqrt{1 + {1\over n} + {(x_0-\bar x)^2 \over \sum \limits_{i=1}^n(x_i-\bar x)^2}}
 $$
 단순회귀분석 모형에서 평균값의 95% 예측구간 :
 $$
-\hat{y}_0±2\hat{SE}(y_0-\hat{y_0})=a+bx_0±2\hat{σ}\sqrt{{1\over n} + {(x_0-\bar x)^2\over{\sum\limits_{i=1}^n(x_i-\bar{x})^2}}}
+\hat{y}_0±2\hat{SE}(y_0-\hat{y_0})=a+bx_0±2\hat{σ}\sqrt{{1 \over n} + {(x_0-\bar x)^2 \over \sum \limits_{i=1}^n(x_i-\bar x)^2}}
 $$
 <u>Point : 개별값을 예측하기가 평균값을 예측하기보다 더 어렵다. (왜? 1이 존재하기때문)</u>
 
