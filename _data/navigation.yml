@@ -4,11 +4,13 @@ main:
 #    url: /categories/
   - title: "Statistics"
     url: /statistics/
-  - title: "Linear Algebra"
-    url: /linearalgebra/
-  - title: "Python"
-    url: /python/
+  # - title: "Linear Algebra"
+  #   url: /linearalgebra/
+  # - title: "Python"
+  #   url: /python/
   - title: "SQL"
     url: /sql/
+  - title: "Project"
+    url: /project/
   # - title: "Sitemap"
   #   url: /sitemap/
