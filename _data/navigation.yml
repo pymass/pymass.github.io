@@ -4,8 +4,8 @@ main:
 #    url: /categories/
   - title: "Statistics"
     url: /statistics/
-  # - title: "Linear Algebra"
-  #   url: /linearalgebra/
+  - title: "Linear Algebra"
+    url: /linearalgebra/
   # - title: "Python"
   #   url: /python/
   - title: "SQL"

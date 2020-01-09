@@ -1,7 +1,7 @@
 ---
 published: true
 layout: single
-title: "SQLD 이론 정리 - 2부"
+title: "SQLD 이론 정리 - 2과목"
 category: SQL
 comments: true
 toc: true
