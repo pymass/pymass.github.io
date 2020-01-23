@@ -1,7 +1,7 @@
 # main links
 main:
-  - title: "Archive"
-    url: /categories/
+  # - title: "Archive"
+  #   url: /categories/
   - title: "Statistics"
     url: /statistics/
   - title: "Linear Algebra"
