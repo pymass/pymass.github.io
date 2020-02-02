@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: single
 title: "핸즈온 머신러닝 정리 - 5장"
 category: Book
