@@ -6,6 +6,7 @@ category: Book
 comments: true
 toc: true
 toc_sticky: true
+use_math: true
 ---
 
 # 분류

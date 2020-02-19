@@ -1,6 +1,6 @@
 ---
 published: true
-layout: single
+layout: posts
 title: "SQLD 이론 정리 - 1과목"
 category: SQL
 comments: true
