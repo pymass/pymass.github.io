@@ -6,8 +6,8 @@ main:
     url: /statistics/
   - title: "Linear Algebra"
     url: /linearalgebra/
-  # - title: "Python"
-    # url: /python/
+  - title: "Paper"
+    url: /paper/
   - title: "SQL"
     url: /sql/
   - title: "Project"
