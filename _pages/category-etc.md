@@ -1,6 +1,6 @@
 ---
 title: "ETC"
-layout: category-etc
+layout: category
 permalink: /etc/
 author_profile: false
 ---
