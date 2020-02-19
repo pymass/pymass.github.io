@@ -1,5 +1,5 @@
 ---
-published: false
+published: true
 layout: single
 title: "한양대 선형대수학 강의 Review - 1부"
 category: Linear Algebra
@@ -19,11 +19,15 @@ use_math: true
 
 통계학 때와 마찬가지로 공부했던 내용을 정리해서 포스팅한다.
 
-<br/>
 
-# 들어가기 전에...
 
-**선형성 정의**
+## 기본 개념
+
+첫 번째 챕터에 들어가기 전에 필요한 기본 개념이 있어 정리한다.
+
+
+
+### 선형성 정의
 
 선형성이란 아래의 두 조건을 동시에 만족하는 것을 말한다.
 $$
@@ -34,9 +38,9 @@ $$
 $$
 f(a_1x_1 + a_2x_2) = a_1f(x_1) + a_2f(x_2)
 $$
-<br/>
 
-**Linear Combination(선형결합)**
+
+### Linear Combination(선형결합)
 
 벡터들을 스칼라배와 벡터 덧셈을 통해 조합하여 새로운 벡터를 얻는 연산이다.
 
@@ -45,19 +49,19 @@ c_1v_1 + c_2v_2 + c_3v_3 +\cdots+ c_nv_n
 $$
 쉽게 말해 위와 같은 표현식을 Linear Combination이라 한다.
 
-<br/>
 
-**Inner Product(내적)**
+
+### Inner Product(내적)
 
 반대편 벡터에 대해 수선의 발을 내려 투영한다. (결과 값은 실수)
 $$
 v_1\cdot v_2 = |v_1||v_2|cos\theta
 $$
-<br/>
 
-# Chapter1. Gauss Elimination
 
-**가우스 소거법**
+## Chapter1. Gauss Elimination
+
+### 가우스 소거법
 
 아래와 같은 1차 연립방정식을 가우스 소거법으로 풀어보자.
 $$
@@ -95,9 +99,9 @@ $$
 2
 \end{bmatrix}
 $$
-<br/>
 
-**Matrix multiplication(행렬 곱셈)**
+
+### Matrix multiplication(행렬 곱셈)
 
 1차 연립방정식을 아래와 같이 표현할 수 있다.
 $$
@@ -134,17 +138,17 @@ w
 9
 \end{bmatrix}
 $$
-<br/>
 
-**LU 분할**
+
+### LU 분할
 
 특정 행렬 A를 Lower Triangular와 Upper Triangular의 곱으로 분리 가능하다.
 
 Lower Triangular 행렬은 Upper Triangular의 형태로 만들기 위한 값의 모음이다. (가우스 소거법을 하는 과정)
 
-<br/>
 
-**Permutation Matrix**
+
+### Permutation Matrix
 
 행의 위치를 바꾸는 연산을 해주는 행렬을 Permutation Matrix라 한다.
 
@@ -152,9 +156,9 @@ Permutation Matrix의 특징은 역행렬과 Transpose한 행렬이 동일하다
 
 가우스 소거법 시 pivoting이 필요하면 A = P^T^LU의 형태로 풀어준다.
 
-<br/>
 
-**역행렬의 특징**
+
+### 역행렬의 특징
 
 1. 역행렬이 항상 존재하지 않는다. 
 2. 가우스 소거법이 n개의 피봇을 가질때만 역행렬이 존재한다.

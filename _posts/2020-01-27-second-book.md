@@ -6,6 +6,7 @@ category: Book
 comments: true
 toc: true
 toc_sticky: true
+use_math: true
 ---
 
 # 머신러닝 프로젝트 처음부터 끝까지

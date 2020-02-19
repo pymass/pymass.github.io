@@ -6,6 +6,7 @@ category: Book
 comments: true
 toc: true
 toc_sticky: true
+use_math: true
 ---
 
 머신러닝 책 1권, 딥러닝 책 1권의 코드를 전체 필사한 뒤 핸즈온 머신러닝을 펼쳐보니 겹치는 내용이 상당히 많다.
@@ -14,7 +15,7 @@ toc_sticky: true
 
 앞으로도 개념 정리나 코드가 없는 수학적인 내용등의 책은 블로그를 통해 정리할 예정이다.
 
-<br/>
+
 
 # 한눈에 보는 머신러닝
 
