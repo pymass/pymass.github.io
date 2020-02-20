@@ -1,7 +1,7 @@
 ---
 published: true
 layout: single
-title: "설명 가능한 추천 시스템 논문 리뷰"
+title: "설명 가능한 추천 시스템 논문 Review"
 category: Paper
 comments: true
 toc: true
