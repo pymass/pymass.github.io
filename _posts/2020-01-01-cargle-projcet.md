@@ -3,9 +3,7 @@ published: true
 layout: single
 title: "Cargle 프로젝트 후기"
 category: Project
-comments: true
 toc: true
-toc_sticky: true
 use_math: true
 ---
 

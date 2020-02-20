@@ -3,9 +3,7 @@ published: true
 layout: single
 title: "한양대 선형대수학 강의 Review - 1부"
 category: Linear Algebra
-comments: true
 toc: true
-toc_sticky: true
 use_math: true
 ---
 

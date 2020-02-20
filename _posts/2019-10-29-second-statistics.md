@@ -3,9 +3,7 @@ published: true
 layout: single
 title: "서울대 경제통계학 강의 Review - 2부"
 category: Statistics
-comments: true
 toc: true
-toc_sticky: true
 use_math: true
 ---
 
@@ -59,7 +57,6 @@ P(A and B), P(A 또는 B)
 두 사건이 모두 일어날 확률은 '하나의 사건이 일어날 확률'과 '하나의 사건이 일어났다는 조건 하에서 다른 하나의 사건이 일어날 조건부확률'을 곱하여 얻는다.
 
 <p align="center">P(A and B) = P(A)ㆍP(B|A) = P(B)ㆍP(A|B)</p>
-
 P(A and B): 결합확률 (joint probability)
 
 - 두 사건이 함께 일어날 확률
@@ -228,7 +225,6 @@ $$
   - 확률과정에 의해 결정되는 숫자는 기대값 주위로 분포하며, 기대값과 표준오차정도 차이가 나는 경향이 있다.
 
 <p align="center">추출한 숫자들의 합 = 합의 기대값 + 합에 든 확률오차</p>
-
 
 ### 제곱근법칙
 

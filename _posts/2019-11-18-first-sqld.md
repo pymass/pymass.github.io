@@ -3,9 +3,7 @@ published: true
 layout: single
 title: "SQLD 이론 정리 - 1과목"
 category: SQL
-comments: true
 toc: true
-toc_sticky: true
 use_math: true
 ---
 

@@ -3,9 +3,7 @@ published: true
 layout: single
 title: "핸즈온 머신러닝 정리 - 4장"
 category: Book
-comments: true
 toc: true
-toc_sticky: true
 use_math: true
 ---
 

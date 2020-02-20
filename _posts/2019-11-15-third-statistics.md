@@ -3,9 +3,7 @@ published: true
 layout: single
 title: "서울대 경제통계학 강의 Review - 3부"
 category: Statistics
-comments: true
 toc: true
-toc_sticky: true
 use_math: true
 ---
 

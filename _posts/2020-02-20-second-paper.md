@@ -3,13 +3,9 @@ published: true
 layout: single
 title: "설명 가능한 추천을 위한 자연어 생성 논문 Review"
 category: Paper
-comments: true
 toc: true
-toc_sticky: true
 use_math: true
 ---
-
-
 
 ## 들어가며...
 

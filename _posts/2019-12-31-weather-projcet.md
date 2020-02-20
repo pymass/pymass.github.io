@@ -3,9 +3,7 @@ published: true
 layout: single
 title: "2019 기상청 빅데이터 콘테스트 후기"
 category: Project
-comments: true
 toc: true
-toc_sticky: true
 use_math: true
 ---
 
