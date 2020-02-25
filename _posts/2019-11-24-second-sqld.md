@@ -2,7 +2,7 @@
 published: true
 layout: single
 title: "SQLD 이론 정리 - 2과목"
-category: SQL
+category: Certificate
 toc: true
 use_math: true
 ---

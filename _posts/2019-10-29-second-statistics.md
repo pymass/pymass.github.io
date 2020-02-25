@@ -2,7 +2,7 @@
 published: true
 layout: single
 title: "서울대 경제통계학 강의 Review - 2부"
-category: Statistics
+category: Math
 toc: true
 use_math: true
 ---
@@ -225,7 +225,6 @@ $$
   - 확률과정에 의해 결정되는 숫자는 기대값 주위로 분포하며, 기대값과 표준오차정도 차이가 나는 경향이 있다.
 
 <p align="center">추출한 숫자들의 합 = 합의 기대값 + 합에 든 확률오차</p>
-
 ### 제곱근법칙
 
 상자에서 무작위 복원 추출할 경우 합의 표준오차 계산 (추출회수가 1인 경우 합의 표준오차는 바로 상자의 표준편차와 같다.)

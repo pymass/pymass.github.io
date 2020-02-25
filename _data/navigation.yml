@@ -2,14 +2,14 @@
 main:
   # - title: "Archive"
   #   url: /categories/
-  - title: "Statistics"
-    url: /statistics/
-  - title: "Linear Algebra"
-    url: /linearalgebra/
+  # - title: "Statistics"
+  #   url: /statistics/
+  - title: "Math"
+    url: /math/
   - title: "Paper"
     url: /paper/
-  - title: "SQL"
-    url: /sql/
+  - title: "Certificate"
+    url: /certificate/
   - title: "Project"
     url: /project/
   - title: "Book"
