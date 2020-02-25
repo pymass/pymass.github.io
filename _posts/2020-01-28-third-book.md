@@ -7,7 +7,7 @@ toc: true
 use_math: true
 ---
 
-# 분류
+## 분류
 
 ### 정밀도와 재현율
 
