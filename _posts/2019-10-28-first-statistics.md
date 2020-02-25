@@ -1,4 +1,11 @@
-
+---
+published: true
+layout: single
+title: "서울대 경제통계학 강의 Review - 1부"
+category: Math
+toc: true
+use_math: true
+---
 
 데이터 분석가가 되기 위해 공부를 시작한 지 6개월 쯤 지났다.
 
