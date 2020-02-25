@@ -1,11 +1,4 @@
----
-published: true
-layout: single
-title: "서울대 경제통계학 강의 Review - 1부"
-category: Math
-toc: true
-use_math: true
----
+
 
 데이터 분석가가 되기 위해 공부를 시작한 지 6개월 쯤 지났다.
 
@@ -77,8 +70,6 @@ use_math: true
   - 심슨의 역설 : 하위집단에서 관찰된 관계는 하위집단들이 결합되었을 때 그 관계가 바뀌어 나타날 수 있다. (<u>혼동요인 통제의 중요성</u>)
   - 혼동요인의 통제 : 보다 동질적인 하위집단을 <u>따로따로 비교함</u>으로써 혼동요인에 대해 통제
 
-
-
 - 이중차분법 (difference in difference): 비교의 비교, 즉 차이의 차이를 이용하여 treatment effect가 존재하는지 분석하는 기법
 - 회귀불연속 기법 (regression discontinuity): 아주 작은 차이 => 처리집단과 통제집단의 구분 => 두 집단간 통계적으로 의미 있는 결과의 차이 존재하는지 분석 
 
@@ -95,7 +86,6 @@ use_math: true
 ### Median Voter Theorem
 
 - 다수결에 의한 투표는 중앙값 투표자가 선호하는 결과를 선택하게 된다.
-
 - 이는 중앙값이 LAD(least absolute deviation)의 해로 얻어진다는 것과 수학적으로 같은 내용이다.
 - 이는 유권자의 신호를 일차원 실직선 상에서 표현할 수 있을 때 성립함
 - 유권자의 선호가 다차원적이면 성립하지 않음
@@ -105,9 +95,7 @@ use_math: true
 ## 2-2. 표준편차와 자유도
 
 - 제곱근-평균-제곱 (Root Mean Square)
-
-  - <u>계산은 표현의 역순</u>(제곱 후 평균, 최종적으로 제곱근)
-
+- <u>계산은 표현의 역순</u>(제곱 후 평균, 최종적으로 제곱근)
   1. 제곱 (S) : 모든 수를 제곱하여 부호를 없앤다.
   2. 평균 (M) : 제곱된 값들의 평균을 구한다.
   3. 제곱근 (R) : 제곱-평균된 값에 제곱근을 취한다.
@@ -148,14 +136,22 @@ use_math: true
 
 - 정규분포의 확률밀도함수 (probability density function)
 
-  <img src="https://i.ibb.co/SwDnqZM/probability-density-funtion.png" alt="probability-density-funtion" border="0">
+  
+  
+  $$
+  f(x)=\frac {1} {\sqrt {2\pi\sigma}}e^{-\frac {(x-\mu)^2} {2\sigma^2}},\; -\infty<x<+\infty,\; e=2.71828\cdots
+  $$
 
 
 
 
 - 표준정규분포 (standard normal distribution) : 평균이 0이고 표준편차가 1인 정규분포
 
-  <img src="https://i.ibb.co/f2DCrCW/standard-normal-distribution.png" alt="standard-normal-distribution" border="0">
+  
+  
+  $$
+f(z) = \frac {1} {2\pi}e^{\{-\frac 1 2 z^2\}},\; -\infty<z<\infty
+  $$
 
 
 
@@ -214,8 +210,10 @@ use_math: true
 
 상관계수는 두 변수간 <u>선형관계의 방향과 강도</u> 측정 (평균과 표준편차가 동일해도 선형관계의 방향과 강도가 다를 수 있기 때문이다.)
 
-<img src="https://i.ibb.co/JjbZgnS/correlation-coefficient.png" alt="correlation-coefficient" border="0">
 
+$$
+r = \frac {\sum^n_{i=1}\frac {(x_i-\bar x)(y_i -\bar y)} {n-1}} {\sqrt {\sum^n_{i=1}\frac {(x_i-\bar x)^2} {n-1}}\sqrt {\sum^n_{i=1}\frac {(y_i-\bar y)^2} {n-1}}}
+$$
 
 
 - 이변량 자료의 요약 통계량
@@ -368,7 +366,10 @@ use_math: true
 
 ## 4-3. 중회귀분석의 응용
 
-<img src="https://i.ibb.co/5WWC418/image.png" alt="image" border="0">
+$$
+\sum(y_i-\bar y)^2 = \sum[(a+bx_i)-\bar y]^2+\sum[y_i-(a+bx_i)^2]\\
+SST = SSR\;+SSE
+$$
 
 - SST(총 제곱합) : y의 평균 주위로의 총변동
 - SSR(회귀제곱합) : 회귀직선에 의해 설명되는 변동분
