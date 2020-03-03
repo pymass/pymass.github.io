@@ -2,7 +2,7 @@
 published: true
 layout: single
 title: "정보처리기사 필기 정리 - 1과목"
-category: Book
+category: Certificate
 toc: true
 use_math: true
 ---
